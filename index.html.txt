@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Will You Be My patner kunju?</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://in.pinterest.com/pin/594615957065349367/') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      color: #fff;
+    }
+
+    .box {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background: #ff69b4;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 25px;
+      color: white;
+      font-size: 1.2rem;
+      cursor: pointer;
+      margin: 10px;
+      transition: transform 0.2s;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Will You Be My Patner Kunju ? 💖</h1>
+    <button onclick="alert('YAY! I’m the happiest person alive! 😍')">Yes</button>
+    <button onclick="alert('I’ll wait for you forever 💔')">No</button>
+  </div>
+</body>
+</html>
